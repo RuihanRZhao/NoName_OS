@@ -1,5 +1,5 @@
 ; To print a char
-;   1) Switch to teletypr Mode 
+;   1) Switch to teletypr Mode  0x0e
 mov ah, 0x0e
 mov al, 'C'
 ;   2) Call BIOS Interrupt 0x10
